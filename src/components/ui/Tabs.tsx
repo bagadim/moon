@@ -5,7 +5,6 @@ interface PropsTabs {
 }
 
 export default function Tabs({ tabs }: PropsTabs) {
-    console.log('Tabs props:', tabs);
     const [activeTab, setActiveTab] = useState(tabs[0]);
     const renderedNavTabs = tabs.map((tab) => {
         return (
@@ -23,7 +22,6 @@ export default function Tabs({ tabs }: PropsTabs) {
         );
     });
     const activeComponent = activeTab.component;
-
     return (
         <div>
             <ul className="mt-5 nav nav-tabs">{renderedNavTabs}</ul>

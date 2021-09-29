@@ -1,0 +1,72 @@
+@import '~bootstrap/scss/buttons';
+
+.btn-secondary:hover {
+    background-color: $primary;
+    color: $white;
+}
+.btn {
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+        border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.btn-outline-playable {
+    color: #3d54db;
+    border-color: #3d54db;
+    background-color: #fff !important;
+}
+.btn-outline-playable:hover {
+    color: #fff !important;
+    background-color: #3d54db !important;
+    border-color: #3d54db;
+}
+.btn-outline-playable:focus,
+.btn-outline-playable.focus {
+    box-shadow: 0 0 0 0.2rem rgba(55, 85, 190, 0.5);
+}
+.btn-outline-playable.disabled,
+.btn-outline-playable:disabled {
+    color: #3d54db;
+    background-color: transparent;
+}
+.btn-outline-playable:not(:disabled):not(.disabled):active,
+.btn-outline-playable:not(:disabled):not(.disabled).active,
+.show > .btn-outline-playable.dropdown-toggle {
+    color: #fff;
+    background-color: #3d54db;
+    border-color: #3d54db;
+}
+.btn-outline-playable:not(:disabled):not(.disabled):active:focus,
+.btn-outline-playable:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-playable.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(55, 85, 190, 0.5);
+}
+.btn-outline-replay {
+    color: #fa47ab;
+    border-color: #fa47ab;
+    background-color: #fff !important;
+}
+.btn-outline-replay:hover {
+    color: #fff !important;
+    background-color: #fa47ab !important;
+    border-color: #fa47ab;
+}
+.btn-outline-replay:focus,
+.btn-outline-replay.focus {
+    box-shadow: 0 0 0 0.2rem rgba(55, 85, 190, 0.5);
+}
+.btn-outline-replay.disabled,
+.btn-outline-replay:disabled {
+    color: #fa47ab;
+    background-color: transparent;
+}
+.btn-outline-replay:not(:disabled):not(.disabled):active,
+.btn-outline-replay:not(:disabled):not(.disabled).active,
+.show > .btn-outline-replay.dropdown-toggle {
+    color: #fff;
+    background-color: #fa47ab;
+    border-color: #fa47ab;
+}
+.btn-outline-replay:not(:disabled):not(.disabled):active:focus,
+.btn-outline-replay:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-replay.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(55, 85, 190, 0.5);
+}

@@ -1,0 +1,37 @@
+@import '~bootstrap/scss/navbar';
+
+.navbar-nav {
+    font-size: 18px;
+    .nav-link {
+        &:hover,
+        &:focus {
+            color: $navbar-light-hover-color;
+            font-weight: $font-weight-bold;
+        }
+    }
+
+    .show > .nav-link,
+    .nav-link.active {
+        color: $navbar-light-active-color;
+        font-weight: $font-weight-bold;
+    }
+    .nav-link::before {
+        display: block;
+        content: attr(title);
+        font-weight: $font-weight-bold;
+        height: 0;
+        overflow: hidden;
+        visibility: hidden;
+        width: 100%;
+    }
+}
+
+.nav-item::before {
+    display: block;
+    content: attr(title);
+    font-weight: $font-weight-bold;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    width: 100%;
+}

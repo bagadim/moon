@@ -1,11 +1,13 @@
 import { useState } from 'react';
 
-export default function Tabs(props: {
+interface PropsTabs {
     tabs: Array<{ label: string; component: JSX.Element }>;
-}) {
-    console.log('Tabs props:', props);
-    const [activeTab, setActiveTab] = useState(props.tabs[0]);
-    const renderedNavTabs = props.tabs.map((tab) => {
+}
+
+export default function Tabs({ tabs }: PropsTabs) {
+    console.log('Tabs props:', tabs);
+    const [activeTab, setActiveTab] = useState(tabs[0]);
+    const renderedNavTabs = tabs.map((tab) => {
         return (
             <li className="nav-item" key={tab.label}>
                 <a

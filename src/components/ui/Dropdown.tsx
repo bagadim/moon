@@ -1,12 +1,12 @@
 import { useState } from 'react';
-const Dropdown = ({ label = 'Dropdown' }) => {
+const Dropdown = ({ label = 'Dropdown', variant = '' }) => {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleOpen = () => setIsOpen(!isOpen);
     const menuClass = `dropdown-menu${isOpen ? ' show' : ''}`;
 
     return (
-        <div className="dropdown" onClick={toggleOpen}>
+        <div className={`dropdown ${variant}`} onClick={toggleOpen}>
             <button
                 className="btn btn-secondary dropdown-toggle"
                 type="button"

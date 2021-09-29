@@ -43,7 +43,9 @@ export default function Navigation() {
             </div>
             <div className="d-flex align-items-center">
                 <div className="text-nowrap">Moon Labs</div>
-                <Dropdown label="Moon User" />
+                <div className="ms-3">
+                    <Dropdown variant="plain" label="Moon User" />
+                </div>
             </div>
         </nav>
     );

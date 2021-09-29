@@ -880,7 +880,7 @@ $input-padding-y-lg: $input-btn-padding-y-lg !default;
 $input-padding-x-lg: $input-btn-padding-x-lg !default;
 $input-font-size-lg: $input-btn-font-size-lg !default;
 
-$input-bg: $body-bg !default;
+$input-bg: $white !default;
 $input-disabled-bg: $gray-200 !default;
 $input-disabled-border-color: null !default;
 
@@ -889,7 +889,7 @@ $input-border-color: $gray-400 !default;
 $input-border-width: $input-btn-border-width !default;
 $input-box-shadow: $box-shadow-inset !default;
 
-$input-border-radius: $border-radius !default;
+$input-border-radius: 0 !default;
 $input-border-radius-sm: $border-radius-sm !default;
 $input-border-radius-lg: $border-radius-lg !default;
 
@@ -1209,8 +1209,8 @@ $dropdown-spacer: 0.125rem !default;
 $dropdown-font-size: $font-size-base !default;
 $dropdown-color: $body-color !default;
 $dropdown-bg: $white !default;
-$dropdown-border-color: rgba($black, 0.15) !default;
-$dropdown-border-radius: $border-radius !default;
+$dropdown-border-color: $gray-400 !default;
+$dropdown-border-radius: 0 !default;
 $dropdown-border-width: $border-width !default;
 $dropdown-inner-border-radius: subtract(
     $dropdown-border-radius,

@@ -1,0 +1,10 @@
+@import '~bootstrap/scss/dropdown';
+
+.dropdown {
+    .btn {
+        @extend .zd-1;
+    }
+}
+.dropdown.plain .btn {
+    box-shadow: none;
+}

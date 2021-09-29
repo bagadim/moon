@@ -1,0 +1,9 @@
+@import '~bootstrap/scss/forms';
+
+.form-group {
+    padding-top: 10px;
+}
+
+.form-control {
+    @extend .zd-1;
+}

@@ -62,7 +62,7 @@ export default function SettingsAttribution() {
                                 component="select"
                                 className="btn"
                             >
-                                <option />
+                                <option>None</option>
                                 <option value="Balloon">Balloon</option>
                                 <option value="Pepega">Pepega</option>
                                 <option value="PepeSad">PepeSad</option>
@@ -82,7 +82,7 @@ export default function SettingsAttribution() {
                                 component="select"
                                 className="btn"
                             >
-                                <option />
+                                <option>Not Selected</option>
                                 <option value="Creative1">Creative1</option>
                                 <option value="Creative2">Creative2</option>
                                 <option value="Creative3">Creative3</option>
